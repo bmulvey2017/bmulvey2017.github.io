@@ -1,0 +1,124 @@
+body{
+  font-family: 'Dosis', sans-serif;
+  font-size: 12px;
+  background-color: #111;
+  color: #eee;
+}
+
+h1{
+  opacity: 0.5;
+  font-size: 75px;
+}
+.titleDigital {
+  font-size: 50px;
+}
+
+h2, h3, h4, h5, h6{
+  font-family: 'Raleway', sans-serif;
+}
+
+.page-title{
+  margin-top: 80px;
+}
+
+.titleCaption{
+  border: 5px solid transparent;
+  transition: 3s;
+}
+
+.titleCaptionBorder{
+  border-color: #fff;
+}
+
+.carousel-caption{
+  top: 75%;
+  transform: translateY(-50%);
+}
+
+.carousel-caption-portfolio{
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  left:0;
+  padding-left: 10px;
+  text-align: left;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.carousel-caption-portfolio-right{
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  left:0;
+  padding-left: 10px;
+  text-align: right;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.carousel-caption-portfolio-hover, .carousel-caption-portfolio-right-hover{
+  opacity: 0;
+}
+
+
+footer{
+  background-color: #111;
+  color: #fff;
+}
+
+/*/My container links my canvas in sketch to the html page and margin positions
+used to centre the canvas on screen./*/
+#myContainer {
+  width: 594px;
+  margin: 0px auto;
+}
+
+/* #myContainer2 {
+  width: 1280px;
+  margin: 0px auto;
+} */
+
+/*/Syles that effect the alignment, colour and font of text. /*/
+#title {
+  text-align: center;
+  color:#fff;
+  font-family: monospace;
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {
+  h1{
+    font-size: 50px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  .carousel-caption{
+    top: 65%;
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel-caption{
+    top: 45%;
+  }
+}
+
+@media (max-width: 480px) {
+
+
+  .titleCaption h1{
+    font-size: 36px;
+  }
+
+  .titleCaption h2{
+    font-size: 18px;
+  }
+}
